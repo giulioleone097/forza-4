@@ -2,17 +2,22 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
   <title>Forza 4</title>
   <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
   <main>
-    <h1>Forza 4</h1>
-    <p id="stato" aria-live="polite"></p>
-    <div id="controlli"></div>
-    <div id="tabellone" role="grid"></div>
-    <button id="nuova" type="button">Nuova partita</button>
+    <header>
+      <h1>Forza 4</h1>
+      <div id="stato" class="stato" aria-live="polite"></div>
+    </header>
+    <div id="tabellone" role="group" aria-label="Tabellone"></div>
+    <footer>
+      <button id="nuova" type="button">Nuova partita</button>
+      <p class="aiuto">Tocca o clicca una colonna · tasti <kbd>1</kbd>–<kbd>7</kbd> · <kbd>←</kbd><kbd>→</kbd> + <kbd>Invio</kbd> · <kbd>N</kbd> nuova</p>
+    </footer>
   </main>
   <script type="module" src="src/app.js"></script>
 </body>
