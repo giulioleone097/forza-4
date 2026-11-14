@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; background: #1e3a8a; color: #fff; display: flex; justify-content: center; margin: 0; padding: 1rem; }
+main { text-align: center; }
+#controlli { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 0.5rem 0; }
+#controlli button { padding: 0.3rem 0; border: none; border-radius: 6px; background: #3b82f6; color: #fff; cursor: pointer; font-size: 1.1rem; }
+#controlli button:disabled { opacity: 0.4; cursor: default; }
+#tabellone { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; background: #2563eb; padding: 10px; border-radius: 12px; }
+.cella { width: 48px; height: 48px; border-radius: 50%; background: #fff; }
+.cella.Giallo { background: #facc15; }
+.cella.Rosso { background: #ef4444; }
+#nuova { margin-top: 1rem; padding: 0.5rem 1rem; border: none; border-radius: 6px; cursor: pointer; }

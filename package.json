@@ -1,0 +1,12 @@
+{
+  "name": "forza-4",
+  "version": "1.0.0",
+  "description": "Gioco minimale Forza 4 (Connect Four) in italiano",
+  "type": "module",
+  "main": "src/logica.js",
+  "scripts": {
+    "test": "node --test test/",
+    "start": "python3 -m http.server 8000"
+  },
+  "license": "MIT"
+}
